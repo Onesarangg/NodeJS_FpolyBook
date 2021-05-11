@@ -1,0 +1,53 @@
+<style>
+    .mh4{
+        width: 50%;
+        border: 1px solid;
+        text-align: center;
+        margin: 2% 25%;
+        padding: 1% 0;
+        background-color: #aeb1e9;
+    }
+    .mh4 a{
+        font-size: 4vw;
+        font-weight: bolder;
+    }
+    .box{
+        margin: 5% 0 0 0;
+    }
+    input{
+        width: 70%;
+        height: 50px;
+        padding: 0 1%;
+    }
+    textarea{
+        width: 70%;
+        padding: 1% 1% 0 1%;
+    }
+    button{
+       width: 35%;
+       height: 50px;
+       border: 0;
+       font-size: 1.2vw;
+       font-weight: bolder;
+       background-color: blueviolet;
+    }
+    
+</style>
+<article class="body">
+<article class="row mh4">
+   <a>ĐĂNG KÝ</a>
+   <aside class="box">
+       <form name="frmdk" action="/thanhvien/luu" method="POST">
+           <input type="text" name="ho" placeholder="Họ" style="width: 34%; margin-right: 2%;">
+           <input type="text" name="ten" placeholder="Tên" style="width: 34%"><br><br>
+           <input type="text" name="username" placeholder="Username" style="width: 34%; margin-right: 2%;">
+           <input type="text" name="tinh" placeholder="Tỉnh (Thành phố)" style="width: 34%"><br><br> 
+           <input type="password" name="password" placeholder="Password"><br><br> 
+           <input type="email" name="email" placeholder="Email"><br><br>   
+           <textarea name="sothich" cols="15" rows="5" placeholder="Sở thích"></textarea><br><br><br><br>  
+           <button type="submit">ĐĂNG KÝ</button>  
+       </form>
+   </aside>
+   
+</article>
+</article>
